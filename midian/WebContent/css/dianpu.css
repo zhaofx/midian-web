@@ -1,0 +1,245 @@
+@CHARSET "UTF-8";
+
+.skin-box-bd {
+	background-image:
+		url(http://img04.taobaocdn.com/imgextra/i4/1640026267/TB2loX_aVXXXXaYXXXXXXXXXXXX-1640026267.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 30px;
+	background-position: left bottom;
+}
+
+.skin-box-bd .menu-list .menu .link {
+	background-image: none;
+	background-color: transparent;
+}
+
+.skin-box-bd .menu-list {
+	background-image: none;
+	background-color: transparent;
+	height: 30px;
+	border: 0px none #666;
+}
+
+.skin-box-bd .menu-list .menu {
+	border: 0px;
+	background-image: none;
+	background-color: transparent;
+}
+
+.skin-box-bd .menu-list .menu-selected .link {
+	background-image: none;
+	background-color: transparent;
+}
+
+.skin-box-bd .menu-list .menu-selected .link .title {
+	color: #FFFFFF;
+	background-image: none;
+	background-color: transparent;
+}
+
+.skin-box-bd .menu-list .menu .link:hover {
+	background-image: none;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.skin-box-bd .menu-list .menu .link .title {
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: 700;
+	height: 30px;
+	line-height: 30px;
+}
+
+.skin-box-bd .menu-list .menu .link .title:hover {
+	text-decoration: underline;
+}
+
+.all-cats {
+	padding: 0px;
+	background-color: transparent;
+	height: 30px;
+	max-width: 111px;
+}
+
+.all-cats .link {
+	border-right: none;
+	background-image: none;
+	width: 100px;
+	background-color: transparent;
+}
+
+.all-cats .link:hover {
+	background-image: none;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.all-cats .link .title {
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: 700;
+	background-color: transparent;
+}
+
+.all-cats .link .title:hover {
+	text-decoration: underline;
+}
+
+.skin-box-bd .all-cats .link .popup-icon {
+	float: left;
+	width: 10px;
+	height: 9px;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image:
+		url(http://img.taobao.com/L1/142/1312862/modules/tshop-pbsm-shop-nav-ch/assets/images/tran.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin-left: 5px;
+}
+
+.skin-box-bd .all-cats-popup {
+	width: 180px;
+}
+
+.skin-box-bd .popup-content {
+	background-attachment: scroll;
+	background-color: #121212;
+	opacity: 1;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0% 0%;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+}
+
+.skin-box-bd .popup-content .cats-tree .cat-hd-hover {
+	background-color: #121212;
+}
+
+.skin-box-bd .popup-content .cats-tree .fst-cat {
+	float: left;
+	height: 30px;
+	width: 180px;
+	border: 0px none #D6D6D6;
+}
+
+.skin-box-bd .popup-content .cats-tree .fst-cat .cat-name {
+	height: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 20px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.skin-box-bd .popup-content .cats-tree .cat-hd-hover .fst-cat-name {
+	color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.skin-box-bd .popup-content .cats-tree .fst-cat-hd:hover {
+	background-color: #333333;
+}
+
+.popup-content .cats-tree .snd-cat-hd:hover {
+	background-color: #333333;
+}
+
+.skin-box-bd .popup-content .cats-tree .fst-cat .snd-pop .snd-cat-hd a {
+	color: #FFFFFF;
+	padding-left: 15px;
+}
+
+.skin-box-bd .popup-content .cats-tree .fst-cat .snd-pop .snd-cat-hd a:hover
+	{
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.popup-content .cats-tree .snd-pop-inner {
+	width: 150px;
+	height: 100%;
+	background-color: #121212;
+	opacity: 1;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	background-image: none;
+}
+
+.menu-popup-cats .sub-cat .cat-name {
+	color: #FFFFFF;
+	padding-left: 10px;
+}
+
+.menu-popup-cats .sub-cat .cat-name:hover {
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.menu-popup-cats .sub-cat a {
+	height: 30px;
+	display: block;
+	overflow: hidden;
+	width: 180px;
+	background-color: #121212;
+}
+
+.popup-content .cats-tree .has-children .fst-cat-icon {
+	display: none;
+	width: 3px;
+	height: 3px;
+	left: 8px;
+	background-attachment: scroll;
+	background-color: #999;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.popup-content .cats-tree .cat-hd-hover .has-children .fst-cat-icon {
+	background-attachment: scroll;
+	background-color: #FFFFFF;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+}
+
+.skin-box-bd .menu-list .menu .link .popup-icon {
+	height: 8px;
+	width: 9px;
+	background:
+		url(http://img.taobao.com/L1/142/1312862/modules/tshop-pbsm-shop-nav-ch/assets/images/tran.png)
+		no-repeat scroll 0% 0% transparent;
+	margin-left: 10px;
+	float: left;
+	margin-top: 11px;
+	display: inline-block;
+}
+
+.all-cats .link {
+	height: 30px;
+	line-height: 30px;
+	border-width: 0px 0px 0px 0px;
+}
